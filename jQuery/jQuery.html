@@ -1,0 +1,46 @@
+	<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>jQuery</title>
+
+</head>
+
+<body style="margin: 0 auto; justify-content: center; align-items: center; display: flex; flex-direction: column;">
+
+
+
+<div class="container" style="align-items: center;">
+    <h1 style="text-align:center;">Registration</h1>
+    <p style="text-align:center; color:blue;">Create your account</p>
+    <label for="user"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="user" id="user" required>
+    <br>
+    <br>
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pass" id="pass" required> <br><br>Show password <input type="checkbox" id="show"> <br><br>
+    <input type="button" onclick="return register()" id="register" value="Register" disabled>
+    <br><br>
+</div>
+
+<button id ="background">Change background</button><br>
+<form>
+	<label>Maximum 15 characters</label>
+	<textarea id="textarea" maxlength="15"></textarea>
+	<span id="span">15</span> characters remaining
+</form>
+
+	<p> <button id="fade">BOOOM</button> to JQuuuueeeeeryyyyyyyyyy</p>
+
+	<button id="btn1">Animate height & width</button>
+	<button id="btn2">Reset</button>
+	<div id="box" style="background: black;height:50px;width:50px;"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="jq.js" charset="UTF-8"></script>
+
+</body>
+</html>
